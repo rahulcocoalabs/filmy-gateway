@@ -5,7 +5,7 @@ var consoleArguments = require('minimist');
 var argv = consoleArguments(process.argv.slice(2));
 var proxy = httpProxy.createProxyServer();
 var CONFIG = require('./config.js');
-var PORT = CONFIG.port?CONFIG.port:8081;
+var PORT = CONFIG.port?CONFIG.port:4000;
 PORT = argv['port']?argv['port']:PORT; 
 PORT = process.env.port?process.env.port:PORT; 
 

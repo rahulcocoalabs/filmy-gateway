@@ -4,6 +4,10 @@ module.exports = {
 		{
 			path:"accounts",
 			port:"4001"
+		},
+		{
+			path:"connections",
+			port:"4002"
 		}
 	]
 
