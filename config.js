@@ -6,7 +6,7 @@ module.exports = {
 			port:"4001"
 		},
 		{
-			path:"feeds",
+			path:"connections",
 			port:"4002"
 		}
 	]
