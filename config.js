@@ -6,8 +6,12 @@ module.exports = {
 			port:"4001"
 		},
 		{
-			path:"connections",
+			path:"feeds",
 			port:"4002"
+		},
+		{
+			path:"connections",
+			port:"4003"
 		}
 	]
 
