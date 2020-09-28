@@ -1,17 +1,21 @@
 module.exports = {
-	port:4000,
+	port:4050,
 	routes:  [
 		{
 			path:"accounts",
-			port:"4001"
+			port:"4051"
 		},
 		{
 			path:"feeds",
-			port:"4002"
+			port:"4052"
 		},
 		{
 			path:"connections",
-			port:"4003"
+			port:"4053"
+		},
+		{
+			path:"articles",
+			port:"4054"
 		}
 	]
 
